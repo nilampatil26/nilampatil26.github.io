@@ -1,0 +1,47 @@
+
+Short listed Themes 
+
+1. https://getdoks.org/showcase/
+2. https://demo.gethugothemes.com/academia/
+3. https://themes.gohugo.io/themes/hugo-profile/
+
+
+
+Generating SSH Key 
+
+ssh-keygen -t ed25519 -C "nilamjadhav7999@gmail.com"
+
+clip < ~/.ssh/id_ed25519.pub
+
+ssh -T git@github.com
+
+
+nilampatil26.github.io
+
+hugo new site nilampatil26.github.io -f=yaml
+
+
+https://www.mikedane.com/static-site-generators/hugo/content-organization/
+
+
+git submodule add https://github.com/theNewDynamic/gohugo-theme-ananke themes/ananke
+
+
+---
+git commands 
+
+echo "# test-repo" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git branch -M main
+git remote add origin git@github.com:nilampatil26/nilampatil26.github.io.git
+git push -u origin main
+
+--- 
+
+Hugo Commands 
+
+hugo - to build the website 
+hugo server 
+
