@@ -122,7 +122,7 @@ params:
     content: |- 
       I am a passionate teacher mentoring students all accross the globe. 
       
-      Every Learner is unique. I provide personalized learning to Young Learners' through 1-1 and Group Sessions using Modern Tools and Tech.
+      Every Learner is unique. I provide personalized and assisted learning to Young Learners' through 1-1 and Group Sessions using Modern Tools and Tech.
     # image: /hero.svg
     image: /nilam-short-hair.jpg
     # image: /nilam-formals.jpg
@@ -169,6 +169,7 @@ params:
         - CSS
         - JavaScript
         - MIT Scratch
+        - Coding using [code.org](https://code.org) 
         - Arduino Based coding
         - Minecraft
         - micro:bit
@@ -360,7 +361,8 @@ params:
     title: "Contact Me"
     content: My inbox is always open. Whether you have a question or just want to say hi, I’ll try my best to get back to you!
     email: nilamjadhav7999@gmail.com
-    btnName: Mail me
+    phone: "+91-776-030-5500"
+    btnName: email me
 
   footer:
     recentPosts:
@@ -370,11 +372,11 @@ params:
       enable: true
       disableFeaturedImage: false
     socialNetworks:
-      github: https://github.com
-      linkedin: https://linkedin.com
-      twitter: https://twitter.com
-      instagram: https://instagram.com
-      facebook: https://facebook.com
+      linkedin: https://www.linkedin.com/in/nilam-patil-b4195ab2
+      github: https://github.com/nilampatil26
+      # twitter: https://twitter.com
+      # instagram: https://instagram.com
+      # facebook: https://facebook.com
 
   # List pages like blogs and posts
   listPages:

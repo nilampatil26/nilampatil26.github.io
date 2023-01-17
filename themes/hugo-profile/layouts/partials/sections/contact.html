@@ -13,8 +13,15 @@
                         <a href="mailto:{{ .Site.Params.contact.email }}" class="btn">
                             {{ .Site.Params.contact.btnName | default "Get in Touch" }}
                         </a>
-                    </div>
+                        <a href="Tel:{{ .Site.Params.contact.phone }}" class="btn">
+                            <!-- {{ .Site.Params.contact.btnName | default "Call Me" }} -->
+                            {{ .Site.Params.contact.phone | default "Call Me" }}
+                        </a>                        
                     {{ end }}
+                    {{ if .Site.Params.contact.phone }}
+                    <div class="text-center pt-3">
+                    </div>
+                    {{ end }}                    
                 </div>
             </div>
         </div>
