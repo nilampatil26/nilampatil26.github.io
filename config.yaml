@@ -56,8 +56,9 @@ Menus:
 params:
   title: "Nilam Patil"
   description: Text about my cool site
-  # staticPath: ""  # The path to serve the static files from
-  favicon: "/fav.png"
+  staticPath: ""  # The path to serve the static files from
+  # favicon: "/fav.png"
+  favicon: "/robot-clip-art.png"
 
   # Whether to serve bootstrap css and js files from CDN or not. Can be set to true, "css" or "js" to choose between
   # serving both, only the css, or only the js files through the CDN. Any other value will make so that CDN is not used.
@@ -157,14 +158,14 @@ params:
            
       I have a background in Physics and Electronics. I have passion for teaching and mentoring with strong interest in the intersection of Education,Science, and Technology.
       
-      I am currently working as a Intenational Tutor and Tech Experts in multiple assignments<a href=https://wiingy.com/in/><span style="color: magenta;">Wiingy</span></a> in Pune, Maharashtra, India.
+      I am currently working as a International Tech and Coding Educator in multiple assignments with <a href=https://wiingy.com/in/><span style="color: magenta;">Wiingy</span></a> in Pune, Maharashtra, India.
 
       Tuoring and Teaching gives me an opportunity to build the knowledge base of my students.
       
 
     skills:
       enable: true
-      title: "Here are some of the Awesome stuff I've been teaching:"
+      title: "Here are some of the Awesome Tech I've been teaching:"
       items:
         - HTML
         - CSS
