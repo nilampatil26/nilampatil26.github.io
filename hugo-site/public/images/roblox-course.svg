@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="400" height="300" viewBox="0 0 400 300">
+  <rect width="400" height="300" fill="#4a90e2"/>
+  <rect x="50" y="80" width="120" height="140" rx="10" fill="#2c3e50"/>
+  <rect x="70" y="100" width="80" height="60" rx="5" fill="#ecf0f1"/>
+  <circle cx="110" cy="200" r="15" fill="#e74c3c"/>
+  <rect x="230" y="100" width="120" height="120" rx="10" fill="#34495e"/>
+  <text x="200" y="50" text-anchor="middle" fill="white" font-size="24" font-weight="bold">Roblox Game Dev</text>
+  <text x="290" y="170" text-anchor="middle" fill="#3498db" font-size="16">3D Studio</text>
+</svg>
