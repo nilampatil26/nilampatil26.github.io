@@ -1,14 +1,68 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Blogs on Hugo Profile</title><link>https://nilampatil26.github.io/blogs/</link><description>Recent content in Blogs on Hugo Profile</description><generator>Hugo -- gohugo.io</generator><language>en</language><lastBuildDate>Fri, 09 Dec 2022 19:53:33 +0530</lastBuildDate><atom:link href="https://nilampatil26.github.io/blogs/index.xml" rel="self" type="application/rss+xml"/><item><title>Render Math With Mathjax</title><link>https://nilampatil26.github.io/blogs/math/</link><pubDate>Fri, 09 Dec 2022 19:53:33 +0530</pubDate><guid>https://nilampatil26.github.io/blogs/math/</guid><description>Mathjax Math equations can be rendered using Mathjax syntax with AMS symbol support.
-Optionally enable this on a per-page basis by adding mathjax: true to your frontmatter.
-Then, use $$ ... $$ on a line by itself to render a block equation:
-$$ | Pr_{x \leftarrow P_{1}} [A(x) = 1] - Pr_{x \leftarrow P_{2}} [A(x) = 1] | &amp;lt; \text{negligible} $$
-The raw version is:
-$$ | Pr_{x \leftarrow P_{1}} [A(x) = 1] - Pr_{x \leftarrow P_{2}} [A(x) = 1] | &amp;lt; \text{negligible} $$ Write in-line equations with \\( .</description></item><item><title>Markdown Syntax</title><link>https://nilampatil26.github.io/blogs/markdown-syntax/</link><pubDate>Sat, 03 Apr 2021 23:29:21 +0530</pubDate><guid>https://nilampatil26.github.io/blogs/markdown-syntax/</guid><description>Paragraph Xerum, quo qui aut unt expliquam qui dolut labo. Aque venitatiusda cum, voluptionse latur sitiae dolessi aut parist aut dollo enim qui voluptate ma dolestendit peritin re plis aut quas inctum laceat est volestemque commosa as cus endigna tectur, offic to cor sequas etum rerum idem sintibus eiur? Quianimin porecus evelectur, cum que nis nust voloribus ratem aut omnimi, sitatur? Quiatem. Nam, omnis sum am facea corem alique molestrunt et eos evelece arcillit ut aut eos eos nus, sin conecerem erum fuga.</description></item><item><title>Emoji Support</title><link>https://nilampatil26.github.io/blogs/emoji-support/</link><pubDate>Sat, 03 Apr 2021 22:53:58 +0530</pubDate><guid>https://nilampatil26.github.io/blogs/emoji-support/</guid><description>Emoji can be enabled in a Hugo project in a number of ways. :zap:
-Emoji Support The emojify function can be called directly in templates or Inline Shortcodes.
-To enable emoji globally, set enableEmoji to true in your site’s configuration and then you can type emoji shorthand codes directly in content files; e.g.
-The Emoji cheat sheet is a useful reference for emoji shorthand codes.
-N.B. The above steps enable Unicode Standard emoji characters and sequences in Hugo, however the rendering of these glyphs depends on the browser and the platform.</description></item><item><title>Placeholder Text</title><link>https://nilampatil26.github.io/blogs/placeholder-text/</link><pubDate>Sat, 03 Apr 2021 22:41:10 +0530</pubDate><guid>https://nilampatil26.github.io/blogs/placeholder-text/</guid><description>Lorem est tota propiore conpellat pectoribus de pectora summo.
-Redit teque digerit hominumque toris verebor lumina non cervice subde tollit usus habet Arctonque, furores quas nec ferunt. Quoque montibus nunc caluere tempus inhospita parcite confusaque translucet patri vestro qui optatis lumine cognoscere flos nubis! Fronde ipsamque patulos Dryopen deorum.
-Exierant elisi ambit vivere dedere Duce pollice Eris modo Spargitque ferrea quos palude Rursus nulli murmur; hastile inridet ut ab gravi sententia!</description></item><item><title>Rich Content</title><link>https://nilampatil26.github.io/blogs/rich-content/</link><pubDate>Sat, 03 Apr 2021 19:53:33 +0530</pubDate><guid>https://nilampatil26.github.io/blogs/rich-content/</guid><description>Hugo ships with several Embedded Shortcodes for rich content, along with a Privacy Config and a set of Simple Shortcodes that enable static and no-JS versions of various social media embeds.
-X Simple Shortcode {{&amp;lt; tweet user=&amp;#34;GoHugoIO&amp;#34; id=&amp;#34;1315233626070503424&amp;#34; &amp;gt;}} Profile is a customizable single-page portfolio theme for Hugo featuring a contact form and blog. Made by @gurusabarishh.https://t.co/KwYcwfdy16
-&amp;mdash; GoHugo.io (@GoHugoIO) October 11, 2020 Vimeo Simple Shortcode {{&amp;lt; vimeo 146022717 &amp;gt;}} Youtube Simple Shortcode {{&amp;lt; youtube w7Ft2ymGmfc &amp;gt;}} Theme Custom Shortcodes These shortcodes are not Hugo built-ins, but are provided by the theme.</description></item></channel></rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Blogs on Nilam&#39;s Page</title>
+    <link>http://localhost:1313/blogs/</link>
+    <description>Recent content in Blogs on Nilam&#39;s Page</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Wed, 20 Mar 2024 16:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/blogs/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>5 Fun Math Tricks to Impress Your Friends</title>
+      <link>http://localhost:1313/blogs/math-tricks/</link>
+      <pubDate>Wed, 20 Mar 2024 16:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/blogs/math-tricks/</guid>
+      <description>5 Fun Math Tricks to Impress Your Friends Math doesn&amp;rsquo;t have to be boring! Here are 5 amazing mental math tricks that will make you look like a math wizard. 🧙‍♀️&#xA;Trick 1: Multiply by 11 (Two-Digit Numbers) The Secret: Split the digits and put their sum in the middle!&#xA;Example: 35 × 11&#xA;Split: 3 __ 5 Add digits: 3 + 5 = 8 Answer: 385 ✨ Try it: 52 × 11 = ?</description>
+    </item>
+    <item>
+      <title>Getting Started with MIT Scratch: A Parent&#39;s Guide</title>
+      <link>http://localhost:1313/blogs/scratch-guide/</link>
+      <pubDate>Fri, 15 Mar 2024 14:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/blogs/scratch-guide/</guid>
+      <description>Getting Started with MIT Scratch: A Parent&amp;rsquo;s Guide MIT Scratch is one of the best tools to introduce children to the world of coding. It&amp;rsquo;s visual, intuitive, and most importantly - fun!&#xA;What is Scratch? Scratch is a block-based visual programming language developed by MIT Media Lab. Instead of typing complex code, kids drag and drop colorful blocks to create:&#xA;🎮 Interactive games 🎬 Animated stories 🎵 Music and sound projects 🤖 Simple simulations Why Scratch is Perfect for Kids 1.</description>
+    </item>
+    <item>
+      <title>Welcome to Learner&#39;s Paradise</title>
+      <link>http://localhost:1313/blogs/welcome-post/</link>
+      <pubDate>Fri, 01 Mar 2024 10:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/blogs/welcome-post/</guid>
+      <description>Welcome to Learner&amp;rsquo;s Paradise Hello and welcome to my blog! I&amp;rsquo;m Nilam Patil, a passionate STEM and Tech Educator with 6+ years of experience teaching students worldwide. I specialize in helping learners aged 6-18 discover the joy of coding, robotics, and game development.&#xA;🎯 Courses I Offer Check out my Courses section for detailed information, or explore them below:&#xA;🎮 Roblox Game Development Master Lua scripting and create your own 3D games!</description>
+    </item>
+    <item>
+      <title>Render Math With Mathjax</title>
+      <link>http://localhost:1313/blogs/math/</link>
+      <pubDate>Fri, 09 Dec 2022 19:53:33 +0530</pubDate>
+      <guid>http://localhost:1313/blogs/math/</guid>
+      <description>Mathjax Math equations can be rendered using Mathjax syntax with AMS symbol support.&#xA;Optionally enable this on a per-page basis by adding mathjax: true to your frontmatter.&#xA;Then, use $$ ... $$ on a line by itself to render a block equation:&#xA;$$ | Pr_{x \leftarrow P_{1}} [A(x) = 1] - Pr_{x \leftarrow P_{2}} [A(x) = 1] | &amp;lt; \text{negligible} $$&#xA;The raw version is:&#xA;$$ | Pr_{x \leftarrow P_{1}} [A(x) = 1] - Pr_{x \leftarrow P_{2}} [A(x) = 1] | &amp;lt; \text{negligible} $$ Write in-line equations with \\( .</description>
+    </item>
+    <item>
+      <title>Markdown Syntax</title>
+      <link>http://localhost:1313/blogs/markdown-syntax/</link>
+      <pubDate>Sat, 03 Apr 2021 23:29:21 +0530</pubDate>
+      <guid>http://localhost:1313/blogs/markdown-syntax/</guid>
+      <description>Paragraph Xerum, quo qui aut unt expliquam qui dolut labo. Aque venitatiusda cum, voluptionse latur sitiae dolessi aut parist aut dollo enim qui voluptate ma dolestendit peritin re plis aut quas inctum laceat est volestemque commosa as cus endigna tectur, offic to cor sequas etum rerum idem sintibus eiur? Quianimin porecus evelectur, cum que nis nust voloribus ratem aut omnimi, sitatur? Quiatem. Nam, omnis sum am facea corem alique molestrunt et eos evelece arcillit ut aut eos eos nus, sin conecerem erum fuga.</description>
+    </item>
+    <item>
+      <title>Emoji Support</title>
+      <link>http://localhost:1313/blogs/emoji-support/</link>
+      <pubDate>Sat, 03 Apr 2021 22:53:58 +0530</pubDate>
+      <guid>http://localhost:1313/blogs/emoji-support/</guid>
+      <description>Emoji can be enabled in a Hugo project in a number of ways. :zap:&#xA;Emoji Support The emojify function can be called directly in templates or Inline Shortcodes.&#xA;To enable emoji globally, set enableEmoji to true in your site’s configuration and then you can type emoji shorthand codes directly in content files; e.g.&#xA;The Emoji cheat sheet is a useful reference for emoji shorthand codes.&#xA;N.B. The above steps enable Unicode Standard emoji characters and sequences in Hugo, however the rendering of these glyphs depends on the browser and the platform.</description>
+    </item>
+    <item>
+      <title>Placeholder Text</title>
+      <link>http://localhost:1313/blogs/placeholder-text/</link>
+      <pubDate>Sat, 03 Apr 2021 22:41:10 +0530</pubDate>
+      <guid>http://localhost:1313/blogs/placeholder-text/</guid>
+      <description>Lorem est tota propiore conpellat pectoribus de pectora summo.&#xA;Redit teque digerit hominumque toris verebor lumina non cervice subde tollit usus habet Arctonque, furores quas nec ferunt. Quoque montibus nunc caluere tempus inhospita parcite confusaque translucet patri vestro qui optatis lumine cognoscere flos nubis! Fronde ipsamque patulos Dryopen deorum.&#xA;Exierant elisi ambit vivere dedere Duce pollice Eris modo Spargitque ferrea quos palude Rursus nulli murmur; hastile inridet ut ab gravi sententia!</description>
+    </item>
+    <item>
+      <title>Rich Content</title>
+      <link>http://localhost:1313/blogs/rich-content/</link>
+      <pubDate>Sat, 03 Apr 2021 19:53:33 +0530</pubDate>
+      <guid>http://localhost:1313/blogs/rich-content/</guid>
+      <description>Hugo ships with several Embedded Shortcodes for rich content, along with a Privacy Config and a set of Simple Shortcodes that enable static and no-JS versions of various social media embeds.&#xA;X Simple Shortcode {{&amp;lt; tweet user=&amp;#34;GoHugoIO&amp;#34; id=&amp;#34;1315233626070503424&amp;#34; &amp;gt;}} Profile is a customizable single-page portfolio theme for Hugo featuring a contact form and blog. Made by @gurusabarishh.https://t.co/KwYcwfdy16&#xA;&amp;mdash; GoHugo.io (@GoHugoIO) October 11, 2020 Vimeo Simple Shortcode {{&amp;lt; vimeo 146022717 &amp;gt;}} Youtube Simple Shortcode {{&amp;lt; youtube w7Ft2ymGmfc &amp;gt;}} Theme Custom Shortcodes These shortcodes are not Hugo built-ins, but are provided by the theme.</description>
+    </item>
+  </channel>
+</rss>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Getting Started with MIT Scratch: A Parent&#39;s Guide on Nilam&#39;s Page</title>
+    <link>http://localhost:1313/mr/blogs/scratch-guide/</link>
+    <description>Recent content in Getting Started with MIT Scratch: A Parent&#39;s Guide on Nilam&#39;s Page</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate></lastBuildDate>
+    <atom:link href="http://localhost:1313/mr/blogs/scratch-guide/index.xml" rel="self" type="application/rss+xml" />
+  </channel>
+</rss>

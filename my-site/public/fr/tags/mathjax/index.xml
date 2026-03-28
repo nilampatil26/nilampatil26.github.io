@@ -1,5 +1,19 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Mathjax on Hugo Profile</title><link>https://nilampatil26.github.io/fr/tags/mathjax/</link><description>Recent content in Mathjax on Hugo Profile</description><generator>Hugo -- gohugo.io</generator><language>fr</language><lastBuildDate>Fri, 09 Dec 2022 19:53:33 +0530</lastBuildDate><atom:link href="https://nilampatil26.github.io/fr/tags/mathjax/index.xml" rel="self" type="application/rss+xml"/><item><title>Rendre les Mathématiques avec Mathjax</title><link>https://nilampatil26.github.io/fr/blogs/math/</link><pubDate>Fri, 09 Dec 2022 19:53:33 +0530</pubDate><guid>https://nilampatil26.github.io/fr/blogs/math/</guid><description>Mathjax Les équations mathématiques peuvent être rendues en utilisant la syntaxe Mathjax avec le support des symboles AMS.
-Activez ceci de manière optionnelle page par page en ajoutant mathjax: true à votre frontmatter.
-Ensuite, utilisez $$ ... $$ sur une ligne par elle-même pour rendre une équation de bloc:
-$$ | Pr_{x \leftarrow P_{1}} [A(x) = 1] - Pr_{x \leftarrow P_{2}} [A(x) = 1] | &amp;lt; \text{negligible} $$
-La version brute est:</description></item></channel></rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Mathjax on Nilam&#39;s Page</title>
+    <link>http://localhost:1313/fr/tags/mathjax/</link>
+    <description>Recent content in Mathjax on Nilam&#39;s Page</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>fr</language>
+    <lastBuildDate>Fri, 09 Dec 2022 19:53:33 +0530</lastBuildDate>
+    <atom:link href="http://localhost:1313/fr/tags/mathjax/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Rendre les Mathématiques avec Mathjax</title>
+      <link>http://localhost:1313/fr/blogs/math/</link>
+      <pubDate>Fri, 09 Dec 2022 19:53:33 +0530</pubDate>
+      <guid>http://localhost:1313/fr/blogs/math/</guid>
+      <description>Mathjax Les équations mathématiques peuvent être rendues en utilisant la syntaxe Mathjax avec le support des symboles AMS.&#xA;Activez ceci de manière optionnelle page par page en ajoutant mathjax: true à votre frontmatter.&#xA;Ensuite, utilisez $$ ... $$ sur une ligne par elle-même pour rendre une équation de bloc:&#xA;$$ | Pr_{x \leftarrow P_{1}} [A(x) = 1] - Pr_{x \leftarrow P_{2}} [A(x) = 1] | &amp;lt; \text{negligible} $$&#xA;La version brute est:</description>
+    </item>
+  </channel>
+</rss>
