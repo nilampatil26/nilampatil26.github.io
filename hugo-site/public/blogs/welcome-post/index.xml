@@ -2,11 +2,11 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Welcome to Learner&#39;s Paradise on Nilam&#39;s Page</title>
-    <link>http://localhost:1314/blogs/welcome-post/</link>
+    <link>http://localhost:1313/blogs/welcome-post/</link>
     <description>Recent content in Welcome to Learner&#39;s Paradise on Nilam&#39;s Page</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate></lastBuildDate>
-    <atom:link href="http://localhost:1314/blogs/welcome-post/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/blogs/welcome-post/index.xml" rel="self" type="application/rss+xml" />
   </channel>
 </rss>

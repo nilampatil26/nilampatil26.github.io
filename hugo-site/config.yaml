@@ -118,18 +118,23 @@ params:
   # Hero
   hero:
     enable: true
-    intro: "Hello, my name is"
+    intro: ""
     title: "Nilam Patil"
-    subtitle: "Learn Science, Math, Robotics, Coding, and lot of more awesome stuff with me"
+    subtitle: "Give your child the skills to create, build, and thrive in a technology‑driven world."
+    # subtitle: "Inspire Curiosity. Build Skills. Unlock Potential."
     content: |- 
-      I am a passionate teacher mentoring students all accross the globe. 
+      Dive into Science, Math, Robotics, Coding, and many more exciting learning adventures with me.
+
+      I’m a passionate educator mentoring young learners across the globe, helping them grow with confidence and creativity.
       
-      Every Learner is unique. I provide personalized and assisted learning to Young Learners' through 1-1 and Group Sessions using Modern Tools and Tech.
+      Every learner is unique — and their learning should be too.
+      
+      I offer personalized, guided 1‑on‑1 and small‑group sessions, using modern tools and technology to make learning engaging, hands‑on, and truly effective.
     # image: /hero.svg
-    image: /nilam-short-hair.jpg
-    # image: /nilam-formals.jpg
+    # image: /nilam-short-hair.jpg
+    image: /nilam-formals.jpg
     button:
-      enable: true
+      enable: false
       name: "Resume"
       url: "/nilam-resume-dec-2022.pdf"
       download: true
@@ -152,7 +157,7 @@ params:
     title: "About Me"
     # image: "/images/me.png"
     # image: /nilam-short-hair.jpg
-    image: /nilam-formals.jpg
+    # image: /nilam-formals.jpg
     content: |-
       I am an international robotics and coding educator with six years of experience delivering online instruction to students aged 6 to 18 across the United States, Australia, Europe, Asia, and the Middle East.
 
@@ -162,7 +167,7 @@ params:
 
     skills:
       enable: true
-      title: "Here are some of the Awesome Tech I've been teaching:"
+      title: "Inspire Curiosity. Build Skills. Unlock Potential."
       items:
         - HTML
         - CSS
