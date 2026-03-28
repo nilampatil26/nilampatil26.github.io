@@ -4,6 +4,7 @@ date: 2026-03-28T12:00:00-04:00
 draft: false
 description: "Book a tutoring session and request the best class time."
 tags: []
+type: "book-session"
 ---
 
 # Book Session

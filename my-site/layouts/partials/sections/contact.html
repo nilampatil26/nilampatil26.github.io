@@ -1,0 +1,67 @@
+{{- $contactPage := or (.Site.GetPage "/contact") ((index .Sites 0).GetPage "/contact") -}}
+{{- $contact := cond (ne $contactPage nil) $contactPage.Params (.Site.Language.Params.contact | default .Site.Params.contact) -}}
+{{- $googleForm := $contact.googleForm -}}
+{{- $formEnabled := $googleForm.enable | default false -}}
+{{- $formReady := and $formEnabled $googleForm.action -}}
+{{ if or $contactPage (.Site.Params.contact.enable | default false) }}
+<section id="contact" class="py-5">
+    <div class="container">
+        <h3 class="text-center">{{ $contact.title | default (i18n "contact") }}</h3>
+        <div class="px-0 px-md-5 px-lg-5">
+            <div class="row justify-content-center px-md-5">
+                <div class="col-md-8 py-3">
+                    <div class="text-center">
+                        {{ if $contactPage }}
+                        {{ $contactPage.Content | emojify }}
+                        {{ else }}
+                        {{ $contact.content | emojify | markdownify }}
+                        {{ end }}
+                    </div>
+                    {{ if $formEnabled }}
+                    <div class="row justify-content-center">
+                        <form id="contact-form"
+                            {{ if $formReady }}action="{{ $googleForm.action }}" target="google-form-contact-target" data-google-form="contact" data-status-target="contact-form-status"{{ else }}action="#"{{ end }}
+                            method="POST"
+                            class="col-md-8">
+                            <div class="form-group pt-3">
+                                <input type="text" class="form-control" name="{{ $googleForm.fields.parentName }}" required="true" placeholder="Parent name">
+                            </div>
+                            <div class="form-group pt-3">
+                                <input type="email" class="form-control" name="{{ $googleForm.fields.email }}" required="true" placeholder='{{ $googleForm.emailCaption | emojify | default (i18n "contact_email_placeholder") }}'>
+                            </div>
+                            <div class="form-group pt-3">
+                                <input type="text" class="form-control" name="{{ $googleForm.fields.phone }}" placeholder="Phone number">
+                            </div>
+                            <div class="form-group pt-3">
+                                <textarea class="form-control" name="{{ $googleForm.fields.additionalNotes }}" required="true" placeholder='{{ $googleForm.messageCaption | emojify | default (i18n "contact_message_placeholder") }}' rows="{{ $googleForm.messageRows | default 3 }}"></textarea>
+                            </div>
+                            <div class="form-group text-center pt-3">
+                                <button type="submit" class="btn">
+                                    {{ $contact.btnName | default (i18n "contact") }}
+                                </button>
+                            </div>
+                        </form>
+                    </div>
+                    <iframe name="google-form-contact-target" class="d-none"></iframe>
+                    {{ else if or ($contact.email) ($contact.btnLink) }}
+                    <div class="text-center pt-3">
+                        <a 
+                            href='{{ if $contact.btnLink }}
+                                    {{ $contact.btnLink | default "#" }}
+                                  {{ else }}
+                                    mailto:{{ $contact.email }}
+                                  {{ end }}'
+                            target="_blank"
+                            class="btn"
+                        >
+                            {{ $contact.btnName | default (i18n "contact") }}
+                        </a>
+                    </div>
+                    {{ end }}
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="contact-form-status"></div>
+</section>
+{{ end }}

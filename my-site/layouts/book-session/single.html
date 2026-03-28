@@ -1,0 +1,105 @@
+{{ define "head" }}
+<meta name="description" content="{{ .Params.description }}">
+<link rel="stylesheet" href="{{ (printf "%scss/single.css" (.Site.Params.staticPath | default "")) | relURL }}">
+<link rel="stylesheet" href="{{ "css/enquiry-form.css" | relURL }}?v={{ now.Unix }}">
+
+<!-- fontawesome -->
+<script defer src="{{ (printf "%sfontawesome-6/all-6.4.2.js" (.Site.Params.staticPath | default "")) | relURL }}"></script>
+{{ end }}
+
+{{ define "title" }}
+{{ .Title }} | {{ .Site.Title }}
+{{ end }}
+
+{{ define "main" }}
+{{- $contactPage := or (.Site.GetPage "/contact") ((index .Sites 0).GetPage "/contact") -}}
+{{- $googleForm := $contactPage.Params.googleForm -}}
+{{- $formReady := and ($googleForm.enable | default false) $googleForm.action -}}
+<section id="single">
+  <div class="container py-5">
+    <div class="row justify-content-center">
+      <div class="col-lg-10">
+        <div class="pr-lg-4">
+          <div class="title mb-4">
+            <h1 class="text-center mb-3">{{ .Title }}</h1>
+            <div class="text-center secondary-font">
+              {{ .Date | time.Format (":date_medium" | default "Jan 2, 2006") }}
+            </div>
+          </div>
+
+          <article class="page-content p-2 mb-5">
+            {{ .Content | emojify }}
+          </article>
+
+          <section class="enquiry-section p-4 p-md-5">
+            <div class="text-center mb-4">
+              <h3 class="mb-2">Detailed Enquiry Form</h3>
+              <p class="secondary-font mb-0">Share a few details so the right course, format, and schedule can be recommended for your child.</p>
+            </div>
+
+            <form class="row g-3"
+              {{ if $formReady }}action="{{ $googleForm.action }}" target="google-form-booking-target" data-google-form="book-session" data-status-target="contact-form-status"{{ else }}action="#"{{ end }}
+              method="POST">
+              <div class="col-md-6">
+                <label class="form-label" for="parent-name">Parent Name</label>
+                <input id="parent-name" class="form-control" type="text" name="{{ $googleForm.fields.parentName }}" required>
+              </div>
+
+              <div class="col-md-6">
+                <label class="form-label" for="parent-email">Email Address</label>
+                <input id="parent-email" class="form-control" type="email" name="{{ $googleForm.fields.email }}" required>
+              </div>
+
+              <div class="col-md-6">
+                <label class="form-label" for="phone-number">Phone Number</label>
+                <input id="phone-number" class="form-control" type="text" name="{{ $googleForm.fields.phone }}">
+              </div>
+
+              <div class="col-md-6">
+                <label class="form-label" for="course-interest">Interested Course</label>
+                <select id="course-interest" class="form-control" name="{{ $googleForm.fields.interestedCourse }}">
+                  <option value="">Select a course</option>
+                  {{ range sort (where .Site.RegularPages "Type" "projects") "Weight" }}
+                  <option value="{{ .Title }}">{{ .Title }}</option>
+                  {{ end }}
+                  <option value="Not sure yet">Not sure yet</option>
+                </select>
+              </div>
+
+              <div class="col-md-6">
+                <label class="form-label" for="class-format">Preferred Class Format</label>
+                <select id="class-format" class="form-control" name="{{ $googleForm.fields.preferredFormat }}">
+                  <option value="">Select a format</option>
+                  <option value="1-on-1">1-on-1</option>
+                  <option value="Small group">Small group</option>
+                  <option value="Either">Either</option>
+                </select>
+              </div>
+
+              <div class="col-12">
+                <label class="form-label" for="goals">Learning Goals</label>
+                <textarea id="goals" class="form-control" name="{{ $googleForm.fields.learningGoals }}" rows="4" placeholder="Tell me what your child would like to learn, improve, or build."></textarea>
+              </div>
+
+              <div class="col-12">
+                <label class="form-label" for="message">Additional Notes</label>
+                <textarea id="message" class="form-control" rows="4" placeholder="Anything else you'd like me to know before I respond?"></textarea>
+              </div>
+
+              <input type="hidden" id="book-session-additional-notes" name="{{ $googleForm.fields.additionalNotes }}">
+
+              <div class="col-12 text-center pt-2">
+                <button type="submit" class="btn enquiry-btn">Submit Enquiry</button>
+              </div>
+            </form>
+
+            <iframe name="google-form-booking-target" class="d-none"></iframe>
+          </section>
+
+          <div id="contact-form-status"></div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+{{ end }}

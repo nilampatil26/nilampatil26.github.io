@@ -1,0 +1,52 @@
+{{ if .Site.Params.projects.enable | default false }}
+{{- $projects := .Site.Language.Params.projects | default .Site.Params.projects -}}
+{{- $projectsPage := or (.Site.GetPage "/projects") ((index .Sites 0).GetPage "/projects") -}}
+{{- $projectPages := where .Site.RegularPages "Type" "projects" -}}
+<section id="projects" class="py-5">
+    <div class="container">
+        <h3 class="text-center">{{ with $projectsPage }}{{ .Title }}{{ else }}{{ $projects.title | default (i18n "projects") }}{{ end }}</h3>
+        <div class="row justify-content-center px-3 px-md-5">
+            {{ range sort $projectPages "Weight" }}
+            {{ if .Params.showInHome | default true }}
+            <div class="col-lg-4 col-md-6 my-3">
+                <div class="card my-3 h-100" title="{{ .Title }}">
+                    <div class="card-head">
+                        <img class="card-img-top" src="{{ .Params.image }}" alt="{{ .Title }}">
+                    </div>
+                    <div class="card-body bg-transparent p-3">
+                        <div class="pb-2 bg-transparent">
+                            {{ range .Params.badges }}
+                            <span class="badge badge-secondary">{{ . }}</span>
+                            {{ end }}
+                        </div>
+                        <h5 class="card-title bg-transparent mt-1">{{ .Title }}</h5>
+                        <div class="card-text bg-transparent secondary-font">
+                            {{ .Params.summary | default .Summary | safeHTML }}
+                        </div>
+                    </div>
+                    {{ if or (.Params.links) (.Params.featured) }}
+                    <div class="card-footer py-3">
+                        {{ range .Params.links }}
+                        <span class="m-1 mx-2">
+                            <a href="{{ .url }}" target="_blank">
+                                <i class="{{ .icon }}"></i>
+                            </a>
+                        </span>
+                        {{ end }}
+                        {{ with .Params.featured }}
+                        <span class="float-end">
+                            <a class="btn btn-sm" href="{{ .link }}" target="_blank">
+                                {{ .name }}
+                            </a>
+                        </span>
+                        {{ end }}
+                    </div>
+                    {{ end }}
+                </div>
+            </div>
+            {{ end }}
+            {{ end }}
+        </div>
+    </div>
+</section>
+{{ end }}

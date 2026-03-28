@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Courses on Nilam&#39;s Page</title>
+    <link>https://nilampatil26.github.io/projects/</link>
+    <description>Recent content in Courses on Nilam&#39;s Page</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <atom:link href="https://nilampatil26.github.io/projects/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Roblox Game Development</title>
+      <link>https://nilampatil26.github.io/projects/roblox-game-development/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://nilampatil26.github.io/projects/roblox-game-development/</guid>
+      <description>Learn to create immersive 3D games using Roblox Studio and Lua scripting.</description>
+    </item>
+    <item>
+      <title>Coding Adventures with MIT Scratch</title>
+      <link>https://nilampatil26.github.io/projects/coding-adventures-with-mit-scratch/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://nilampatil26.github.io/projects/coding-adventures-with-mit-scratch/</guid>
+      <description>A fun-filled journey into programming for young learners with creative stories, animations, and games.</description>
+    </item>
+    <item>
+      <title>Arduino &amp; LEGO Robotics Engineering</title>
+      <link>https://nilampatil26.github.io/projects/arduino-lego-robotics-engineering/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://nilampatil26.github.io/projects/arduino-lego-robotics-engineering/</guid>
+      <description>Hands-on robotics projects that introduce circuit design, sensors, and Arduino programming.</description>
+    </item>
+    <item>
+      <title>Web Development Fundamentals</title>
+      <link>https://nilampatil26.github.io/projects/web-development-fundamentals/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://nilampatil26.github.io/projects/web-development-fundamentals/</guid>
+      <description>Build modern websites from scratch with HTML, CSS, and JavaScript.</description>
+    </item>
+    <item>
+      <title>Minecraft Education &amp; AI Basics</title>
+      <link>https://nilampatil26.github.io/projects/minecraft-education-ai-basics/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://nilampatil26.github.io/projects/minecraft-education-ai-basics/</guid>
+      <description>Explore coding, collaboration, and AI fundamentals through Minecraft Education.</description>
+    </item>
+    <item>
+      <title>Physics &amp; Electronics for Young Minds</title>
+      <link>https://nilampatil26.github.io/projects/physics-electronics-for-young-minds/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://nilampatil26.github.io/projects/physics-electronics-for-young-minds/</guid>
+      <description>Simplify physics through engaging experiments, circuits, sensors, and hands-on electronics.</description>
+    </item>
+  </channel>
+</rss>

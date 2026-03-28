@@ -1,0 +1,25 @@
+{{- $heroPage := or (.Site.GetPage "/hero") ((index .Sites 0).GetPage "/hero") -}}
+{{- $socialLinks := cond (ne $heroPage nil) $heroPage.Params.socialLinks .Site.Params.hero.socialLinks -}}
+<span>
+    {{ range $socialLinks.fontAwesomeIcons }}
+    <span class="px-1">
+        <a href="{{ .url }}"
+            {{ if not (hasPrefix .url "#") }} target="_blank" {{ end }}
+            class="btn social-icon"
+        >
+            <i class="{{ .icon }}"></i>
+        </a>
+    </span>
+    {{ end }}
+
+    {{ range $socialLinks.customIcons }}
+    <span class="px-1">
+        <a href="{{ .url }}"
+            {{ if not (hasPrefix .url "#") }} target="_blank" {{ end }}
+            class="btn social-icon"
+        >
+            <img src="{{ .icon }}">
+        </a>
+    </span>
+    {{ end }}
+</span>
