@@ -245,13 +245,13 @@ params:
     secondaryColor: "#f8f9fa"
 
     darkmode:
-      textColor: "#F8F8F2"
-      secondaryTextColor: "#B6BBD1"
-      textLinkColor: "#8BE9FD"
-      backgroundColor: "#282A36"
-      secondaryBackgroundColor: "#343746"
-      primaryColor: "#BD93F9"
-      secondaryColor: "#21222C"
+      textColor: "#cdd6f4"
+      secondaryTextColor: "#bac2de"
+      textLinkColor: "#89b4fa"
+      backgroundColor: "#1e1e2e"
+      secondaryBackgroundColor: "#313244"
+      primaryColor: "#cba6f7"
+      secondaryColor: "#181825"
 
   # If you want to customize the menu, you can change it here
   navbar:
