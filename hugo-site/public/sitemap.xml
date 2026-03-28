@@ -41,7 +41,16 @@
     <loc>http://localhost:1314/tags/scratch/</loc>
     <lastmod>2024-03-15T14:00:00+00:00</lastmod>
   </url><url>
+    <loc>http://localhost:1314/categories/</loc>
+    <lastmod>2024-03-01T10:00:00+00:00</lastmod>
+  </url><url>
     <loc>http://localhost:1314/tags/education/</loc>
+    <lastmod>2024-03-01T10:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1314/categories/general/</loc>
+    <lastmod>2024-03-01T10:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1314/tags/robotics/</loc>
     <lastmod>2024-03-01T10:00:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1314/tags/tutoring/</loc>
@@ -88,7 +97,5 @@
   </url><url>
     <loc>http://localhost:1314/blogs/rich-content/</loc>
     <lastmod>2021-04-03T19:53:33+05:30</lastmod>
-  </url><url>
-    <loc>http://localhost:1314/categories/</loc>
   </url>
 </urlset>

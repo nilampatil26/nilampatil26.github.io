@@ -312,9 +312,9 @@ params:
     enable: true
     title: "Courses"
     items:
-      - title: "Roblox Game Development Masterclass"
+      - title: "Roblox Game Development"
         content: "Learn to create immersive 3D games using Roblox Studio and Lua scripting. Students design environments, program game mechanics, and publish their own games on the Roblox platform. Perfect for aspiring game developers!"
-        image: /images/course-roblox.jpg
+        image: /images/roblox.png
         featured:
           name: "Enroll Now"
           link: "#contact"
@@ -328,7 +328,7 @@ params:
 
       - title: "Coding Adventures with MIT Scratch"
         content: "A fun-filled journey into programming for young learners! Kids create interactive stories, animations, and games using colorful drag-and-drop blocks. Builds logical thinking and computational skills from an early age."
-        image: /images/course-scratch.jpg
+        image: /images/mit-scratch.png
         featured:
           name: "Join Course"
           link: "#contact"
@@ -342,7 +342,7 @@ params:
 
       - title: "Arduino & LEGO Robotics Engineering"
         content: "Hands-on robotics course where students build real-world projects! Learn circuit design, sensor integration, and programming Arduino boards. Combine with LEGO for creative mechanical designs and automation projects."
-        image: /images/course-robotics.jpg
+        image: /images/arduino-lego-robotics.png
         featured:
           name: "Start Learning"
           link: "#contact"
@@ -356,7 +356,7 @@ params:
 
       - title: "Web Development Fundamentals"
         content: "Build modern websites from scratch! Students learn HTML structure, CSS styling, and JavaScript interactivity. Create responsive portfolios, interactive forms, and dynamic web applications ready for the real world."
-        image: /images/course-webdev.jpg
+        image: /images/web-dev-course.png
         featured:
           name: "Get Started"
           link: "#contact"
@@ -370,7 +370,7 @@ params:
 
       - title: "Minecraft Education & AI Basics"
         content: "Explore the educational power of Minecraft! Students learn coding concepts, problem-solving, and collaborate on builds. Plus introduction to AI fundamentals - understanding how machines learn and think."
-        image: /images/course-minecraft.jpg
+        image: /images/course-minecraft.png
         featured:
           name: "Explore Now"
           link: "#contact"
