@@ -309,11 +309,11 @@ params:
     # image: /nilam-short-hair.jpg
     # image: /nilam-formals.jpg
     content: |-
-      I am an international robotics and coding educator with six years of experience delivering online instruction to students aged 6 to 18 across the United States, Australia, Europe, Asia, and the Middle East.
+      I am an international robotics and coding educator with more than six years of experience teaching students aged 6 to 18 across the United States, Australia, Europe, Asia, and the Middle East.
 
-      My primary expertise is in Roblox game development using Roblox Studio. I teach students game design, Lua scripting, and 3D environment creation, guiding them to build their own games while strengthening their programming skills and creative thinking. Additionally, I teach block-based coding (MIT Scratch, Code.org), Arduino and LEGO-based robotics, AI fundamentals, Minecraft Education, and web development (HTML, CSS, and JavaScript).
+      My core expertise is in Roblox game development using Roblox Studio, where I help learners explore game design, Lua scripting, and 3D world-building while developing confidence in programming and creative problem-solving. I also teach block-based coding through MIT Scratch and Code.org, Arduino and LEGO robotics, AI fundamentals, Minecraft Education, and web development with HTML, CSS, and JavaScript.
 
-      I am also experienced in developing structured curriculum resources, including lesson plans, instructional videos, and project-based learning materials tailored to diverse age groups. I hold a Master's degree in Physics with a specialization in Electronics, which helps me simplify complex technical concepts into engaging, student-centered lessons.
+      Beyond live instruction, I create structured learning experiences through lesson plans, instructional videos, and project-based curriculum tailored to different age groups and learning styles. I hold a Master's degree in Physics with a specialization in Electronics, and I bring that foundation into every class by turning complex technical ideas into clear, engaging, and student-friendly learning.
 
     skills:
       enable: true
