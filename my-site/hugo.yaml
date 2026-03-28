@@ -256,13 +256,13 @@ params:
 
   # color preference
   color:
-    textColor: "#343a40"
-    secondaryTextColor: "#6c757d"
-    textLinkColor: "#007bff"
-    backgroundColor: "#eaedf0"
-    secondaryBackgroundColor: "#64ffda1a"
-    primaryColor: "#007bff"
-    secondaryColor: "#f8f9fa"
+    textColor: "#2f2438"
+    secondaryTextColor: "#6f5f7d"
+    textLinkColor: "#5b7cfa"
+    backgroundColor: "#faf7fc"
+    secondaryBackgroundColor: "#efe7f5"
+    primaryColor: "#9b5de5"
+    secondaryColor: "#ffffff"
 
     darkmode:
       textColor: "#f3ecff"
