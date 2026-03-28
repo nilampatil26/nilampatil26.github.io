@@ -1,180 +1,44 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-  <channel>
-    <title>Nilam&#39;s Page</title>
-    <link>http://localhost:1313/</link>
-    <description>Recent content on Nilam&#39;s Page</description>
-    <generator>Hugo -- gohugo.io</generator>
-    <language>en</language>
-    <lastBuildDate>Wed, 20 Mar 2024 16:00:00 +0000</lastBuildDate>
-    <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>5 Fun Math Tricks to Impress Your Friends</title>
-      <link>http://localhost:1313/blogs/math-tricks/</link>
-      <pubDate>Wed, 20 Mar 2024 16:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/blogs/math-tricks/</guid>
-      <description>5 Fun Math Tricks to Impress Your Friends Math doesn&amp;rsquo;t have to be boring! Here are 5 amazing mental math tricks that will make you look like a math wizard. 🧙‍♀️&#xA;Trick 1: Multiply by 11 (Two-Digit Numbers) The Secret: Split the digits and put their sum in the middle!&#xA;Example: 35 × 11&#xA;Split: 3 __ 5 Add digits: 3 + 5 = 8 Answer: 385 ✨ Try it: 52 × 11 = ?</description>
-    </item>
-    <item>
-      <title>Getting Started with MIT Scratch: A Parent&#39;s Guide</title>
-      <link>http://localhost:1313/blogs/scratch-guide/</link>
-      <pubDate>Fri, 15 Mar 2024 14:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/blogs/scratch-guide/</guid>
-      <description>Getting Started with MIT Scratch: A Parent&amp;rsquo;s Guide MIT Scratch is one of the best tools to introduce children to the world of coding. It&amp;rsquo;s visual, intuitive, and most importantly - fun!&#xA;What is Scratch? Scratch is a block-based visual programming language developed by MIT Media Lab. Instead of typing complex code, kids drag and drop colorful blocks to create:&#xA;🎮 Interactive games 🎬 Animated stories 🎵 Music and sound projects 🤖 Simple simulations Why Scratch is Perfect for Kids 1.</description>
-    </item>
-    <item>
-      <title>Welcome to Learner&#39;s Paradise</title>
-      <link>http://localhost:1313/blogs/welcome-post/</link>
-      <pubDate>Fri, 01 Mar 2024 10:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/blogs/welcome-post/</guid>
-      <description>Welcome to Learner&amp;rsquo;s Paradise Hello and welcome to my blog! I&amp;rsquo;m Nilam Patil, a passionate STEM and Tech Educator with 6+ years of experience teaching students worldwide. I specialize in helping learners aged 6-18 discover the joy of coding, robotics, and game development.&#xA;🎯 Courses I Offer Check out my Courses section for detailed information, or explore them below:&#xA;🎮 Roblox Game Development Master Lua scripting and create your own 3D games!</description>
-    </item>
-    <item>
-      <title>Render Math With Mathjax</title>
-      <link>http://localhost:1313/blogs/math/</link>
-      <pubDate>Fri, 09 Dec 2022 19:53:33 +0530</pubDate>
-      <guid>http://localhost:1313/blogs/math/</guid>
-      <description>Mathjax Math equations can be rendered using Mathjax syntax with AMS symbol support.&#xA;Optionally enable this on a per-page basis by adding mathjax: true to your frontmatter.&#xA;Then, use $$ ... $$ on a line by itself to render a block equation:&#xA;$$ | Pr_{x \leftarrow P_{1}} [A(x) = 1] - Pr_{x \leftarrow P_{2}} [A(x) = 1] | &amp;lt; \text{negligible} $$&#xA;The raw version is:&#xA;$$ | Pr_{x \leftarrow P_{1}} [A(x) = 1] - Pr_{x \leftarrow P_{2}} [A(x) = 1] | &amp;lt; \text{negligible} $$ Write in-line equations with \\( .</description>
-    </item>
-    <item>
-      <title>Renderizar Matemáticas con Mathjax</title>
-      <link>http://localhost:1313/es/blogs/math/</link>
-      <pubDate>Fri, 09 Dec 2022 19:53:33 +0530</pubDate>
-      <guid>http://localhost:1313/es/blogs/math/</guid>
-      <description>Mathjax Las ecuaciones matemáticas se pueden renderizar usando la sintaxis de Mathjax con soporte de símbolos AMS.&#xA;Opcionalmente, habilita esto por página agregando mathjax: true a tu frontmatter.&#xA;Luego, usa $$ ... $$ en una línea por sí sola para renderizar una ecuación de bloque:&#xA;$$ | Pr_{x \leftarrow P_{1}} [A(x) = 1] - Pr_{x \leftarrow P_{2}} [A(x) = 1] | &amp;lt; \text{negligible} $$&#xA;La versión sin procesar es:&#xA;$$ | Pr_{x \leftarrow P_{1}} [A(x) = 1] - Pr_{x \leftarrow P_{2}} [A(x) = 1] | &amp;lt; \text{negligible} $$ Escribe ecuaciones en línea con \\( .</description>
-    </item>
-    <item>
-      <title>Rendre les Mathématiques avec Mathjax</title>
-      <link>http://localhost:1313/fr/blogs/math/</link>
-      <pubDate>Fri, 09 Dec 2022 19:53:33 +0530</pubDate>
-      <guid>http://localhost:1313/fr/blogs/math/</guid>
-      <description>Mathjax Les équations mathématiques peuvent être rendues en utilisant la syntaxe Mathjax avec le support des symboles AMS.&#xA;Activez ceci de manière optionnelle page par page en ajoutant mathjax: true à votre frontmatter.&#xA;Ensuite, utilisez $$ ... $$ sur une ligne par elle-même pour rendre une équation de bloc:&#xA;$$ | Pr_{x \leftarrow P_{1}} [A(x) = 1] - Pr_{x \leftarrow P_{2}} [A(x) = 1] | &amp;lt; \text{negligible} $$&#xA;La version brute est:</description>
-    </item>
-    <item>
-      <title>Galería de Imágenes</title>
-      <link>http://localhost:1313/es/gallery/</link>
-      <pubDate>Sat, 25 Jun 2022 18:35:46 +0530</pubDate>
-      <guid>http://localhost:1313/es/gallery/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Galerie d&#39;Images</title>
-      <link>http://localhost:1313/fr/gallery/</link>
-      <pubDate>Sat, 25 Jun 2022 18:35:46 +0530</pubDate>
-      <guid>http://localhost:1313/fr/gallery/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Image Gallery</title>
-      <link>http://localhost:1313/gallery/</link>
-      <pubDate>Sat, 25 Jun 2022 18:35:46 +0530</pubDate>
-      <guid>http://localhost:1313/gallery/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Markdown Syntax</title>
-      <link>http://localhost:1313/blogs/markdown-syntax/</link>
-      <pubDate>Sat, 03 Apr 2021 23:29:21 +0530</pubDate>
-      <guid>http://localhost:1313/blogs/markdown-syntax/</guid>
-      <description>Paragraph Xerum, quo qui aut unt expliquam qui dolut labo. Aque venitatiusda cum, voluptionse latur sitiae dolessi aut parist aut dollo enim qui voluptate ma dolestendit peritin re plis aut quas inctum laceat est volestemque commosa as cus endigna tectur, offic to cor sequas etum rerum idem sintibus eiur? Quianimin porecus evelectur, cum que nis nust voloribus ratem aut omnimi, sitatur? Quiatem. Nam, omnis sum am facea corem alique molestrunt et eos evelece arcillit ut aut eos eos nus, sin conecerem erum fuga.</description>
-    </item>
-    <item>
-      <title>Sintaxis de Markdown</title>
-      <link>http://localhost:1313/es/blogs/markdown-syntax/</link>
-      <pubDate>Sat, 03 Apr 2021 23:29:21 +0530</pubDate>
-      <guid>http://localhost:1313/es/blogs/markdown-syntax/</guid>
-      <description>Párrafo Xerum, quo qui aut unt expliquam qui dolut labo. Aque venitatiusda cum, voluptionse latur sitiae dolessi aut parist aut dollo enim qui voluptate ma dolestendit peritin re plis aut quas inctum laceat est volestemque commosa as cus endigna tectur, offic to cor sequas etum rerum idem sintibus eiur? Quianimin porecus evelectur, cum que nis nust voloribus ratem aut omnimi, sitatur? Quiatem. Nam, omnis sum am facea corem alique molestrunt et eos evelece arcillit ut aut eos eos nus, sin conecerem erum fuga.</description>
-    </item>
-    <item>
-      <title>Syntaxe Markdown</title>
-      <link>http://localhost:1313/fr/blogs/markdown-syntax/</link>
-      <pubDate>Sat, 03 Apr 2021 23:29:21 +0530</pubDate>
-      <guid>http://localhost:1313/fr/blogs/markdown-syntax/</guid>
-      <description>Paragraphe Xerum, quo qui aut unt expliquam qui dolut labo. Aque venitatiusda cum, voluptionse latur sitiae dolessi aut parist aut dollo enim qui voluptate ma dolestendit peritin re plis aut quas inctum laceat est volestemque commosa as cus endigna tectur, offic to cor sequas etum rerum idem sintibus eiur? Quianimin porecus evelectur, cum que nis nust voloribus ratem aut omnimi, sitatur? Quiatem. Nam, omnis sum am facea corem alique molestrunt et eos evelece arcillit ut aut eos eos nus, sin conecerem erum fuga.</description>
-    </item>
-    <item>
-      <title>Emoji Support</title>
-      <link>http://localhost:1313/blogs/emoji-support/</link>
-      <pubDate>Sat, 03 Apr 2021 22:53:58 +0530</pubDate>
-      <guid>http://localhost:1313/blogs/emoji-support/</guid>
-      <description>Emoji can be enabled in a Hugo project in a number of ways. :zap:&#xA;Emoji Support The emojify function can be called directly in templates or Inline Shortcodes.&#xA;To enable emoji globally, set enableEmoji to true in your site’s configuration and then you can type emoji shorthand codes directly in content files; e.g.&#xA;The Emoji cheat sheet is a useful reference for emoji shorthand codes.&#xA;N.B. The above steps enable Unicode Standard emoji characters and sequences in Hugo, however the rendering of these glyphs depends on the browser and the platform.</description>
-    </item>
-    <item>
-      <title>Soporte de Emoji</title>
-      <link>http://localhost:1313/es/blogs/emoji-support/</link>
-      <pubDate>Sat, 03 Apr 2021 22:53:58 +0530</pubDate>
-      <guid>http://localhost:1313/es/blogs/emoji-support/</guid>
-      <description>Los emoji se pueden habilitar en un proyecto Hugo de varias maneras. :zap:&#xA;Soporte de Emoji La función emojify se puede llamar directamente en las plantillas o Shortcodes en línea.&#xA;Para habilitar emoji globalmente, establece enableEmoji en true en la configuración de tu sitio y luego puedes escribir códigos abreviados de emoji directamente en los archivos de contenido; por ejemplo:&#xA;La Hoja de trucos de Emoji es una referencia útil para los códigos abreviados de emoji.</description>
-    </item>
-    <item>
-      <title>Support des Emoji</title>
-      <link>http://localhost:1313/fr/blogs/emoji-support/</link>
-      <pubDate>Sat, 03 Apr 2021 22:53:58 +0530</pubDate>
-      <guid>http://localhost:1313/fr/blogs/emoji-support/</guid>
-      <description>Les emoji peuvent être activés dans un projet Hugo de plusieurs façons. :zap:&#xA;Support des Emoji La fonction emojify peut être appelée directement dans les modèles ou les Shortcodes en ligne.&#xA;Pour activer les emoji globalement, définissez enableEmoji sur true dans la configuration de votre site, puis vous pouvez taper les codes abrégés d&amp;rsquo;emoji directement dans les fichiers de contenu; par exemple :&#xA;La Feuille de triche Emoji est une référence utile pour les codes abrégés d&amp;rsquo;emoji.</description>
-    </item>
-    <item>
-      <title>Placeholder Text</title>
-      <link>http://localhost:1313/blogs/placeholder-text/</link>
-      <pubDate>Sat, 03 Apr 2021 22:41:10 +0530</pubDate>
-      <guid>http://localhost:1313/blogs/placeholder-text/</guid>
-      <description>Lorem est tota propiore conpellat pectoribus de pectora summo.&#xA;Redit teque digerit hominumque toris verebor lumina non cervice subde tollit usus habet Arctonque, furores quas nec ferunt. Quoque montibus nunc caluere tempus inhospita parcite confusaque translucet patri vestro qui optatis lumine cognoscere flos nubis! Fronde ipsamque patulos Dryopen deorum.&#xA;Exierant elisi ambit vivere dedere Duce pollice Eris modo Spargitque ferrea quos palude Rursus nulli murmur; hastile inridet ut ab gravi sententia!</description>
-    </item>
-    <item>
-      <title>Texte de Remplissage</title>
-      <link>http://localhost:1313/fr/blogs/placeholder-text/</link>
-      <pubDate>Sat, 03 Apr 2021 22:41:10 +0530</pubDate>
-      <guid>http://localhost:1313/fr/blogs/placeholder-text/</guid>
-      <description>Lorem est tota propiore conpellat pectoribus de pectora summo.&#xA;Redit teque digerit hominumque toris verebor lumina non cervice subde tollit usus habet Arctonque, furores quas nec ferunt. Quoque montibus nunc caluere tempus inhospita parcite confusaque translucet patri vestro qui optatis lumine cognoscere flos nubis! Fronde ipsamque patulos Dryopen deorum.&#xA;Exierant elisi ambit vivere dedere Duce pollice Eris modo Spargitque ferrea quos palude Rursus nulli murmur; hastile inridet ut ab gravi sententia!</description>
-    </item>
-    <item>
-      <title>Texto de Relleno</title>
-      <link>http://localhost:1313/es/blogs/placeholder-text/</link>
-      <pubDate>Sat, 03 Apr 2021 22:41:10 +0530</pubDate>
-      <guid>http://localhost:1313/es/blogs/placeholder-text/</guid>
-      <description>Lorem est tota propiore conpellat pectoribus de pectora summo.&#xA;Redit teque digerit hominumque toris verebor lumina non cervice subde tollit usus habet Arctonque, furores quas nec ferunt. Quoque montibus nunc caluere tempus inhospita parcite confusaque translucet patri vestro qui optatis lumine cognoscere flos nubis! Fronde ipsamque patulos Dryopen deorum.&#xA;Exierant elisi ambit vivere dedere Duce pollice Eris modo Spargitque ferrea quos palude Rursus nulli murmur; hastile inridet ut ab gravi sententia!</description>
-    </item>
-    <item>
-      <title>Contenido Enriquecido</title>
-      <link>http://localhost:1313/es/blogs/rich-content/</link>
-      <pubDate>Sat, 03 Apr 2021 19:53:33 +0530</pubDate>
-      <guid>http://localhost:1313/es/blogs/rich-content/</guid>
-      <description>Hugo viene con varios Shortcodes Integrados para contenido enriquecido, junto con una Configuración de Privacidad y un conjunto de Shortcodes Simples que habilitan versiones estáticas y sin JS de varias incrustaciones de redes sociales.&#xA;Shortcode Simple de X {{&amp;lt; tweet user=&amp;#34;GoHugoIO&amp;#34; id=&amp;#34;1315233626070503424&amp;#34; &amp;gt;}} Shortcode Simple de Vimeo {{&amp;lt; vimeo 146022717 &amp;gt;}} Shortcode gist {{&amp;lt; gist spf13 7896402 &amp;gt;}} </description>
-    </item>
-    <item>
-      <title>Contenu Enrichi</title>
-      <link>http://localhost:1313/fr/blogs/rich-content/</link>
-      <pubDate>Sat, 03 Apr 2021 19:53:33 +0530</pubDate>
-      <guid>http://localhost:1313/fr/blogs/rich-content/</guid>
-      <description>Hugo est livré avec plusieurs Shortcodes Intégrés pour le contenu enrichi, ainsi qu&amp;rsquo;une Configuration de Confidentialité et un ensemble de Shortcodes Simples qui permettent des versions statiques et sans JS de diverses intégrations de médias sociaux.&#xA;Shortcode Simple X {{&amp;lt; tweet user=&amp;#34;GoHugoIO&amp;#34; id=&amp;#34;1315233626070503424&amp;#34; &amp;gt;}} Shortcode Simple Vimeo {{&amp;lt; vimeo 146022717 &amp;gt;}} Shortcode gist {{&amp;lt; gist spf13 7896402 &amp;gt;}} </description>
-    </item>
-    <item>
-      <title>Rich Content</title>
-      <link>http://localhost:1313/blogs/rich-content/</link>
-      <pubDate>Sat, 03 Apr 2021 19:53:33 +0530</pubDate>
-      <guid>http://localhost:1313/blogs/rich-content/</guid>
-      <description>Hugo ships with several Embedded Shortcodes for rich content, along with a Privacy Config and a set of Simple Shortcodes that enable static and no-JS versions of various social media embeds.&#xA;X Simple Shortcode {{&amp;lt; tweet user=&amp;#34;GoHugoIO&amp;#34; id=&amp;#34;1315233626070503424&amp;#34; &amp;gt;}} Profile is a customizable single-page portfolio theme for Hugo featuring a contact form and blog. Made by @gurusabarishh.https://t.co/KwYcwfdy16&#xA;&amp;mdash; GoHugo.io (@GoHugoIO) October 11, 2020 Vimeo Simple Shortcode {{&amp;lt; vimeo 146022717 &amp;gt;}} Youtube Simple Shortcode {{&amp;lt; youtube w7Ft2ymGmfc &amp;gt;}} Theme Custom Shortcodes These shortcodes are not Hugo built-ins, but are provided by the theme.</description>
-    </item>
-    <item>
-      <title>About Me</title>
-      <link>http://localhost:1313/about/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/about/</guid>
-      <description>I am an international robotics and coding educator with six years of experience delivering online instruction to students aged 6 to 18 across the United States, Australia, Europe, Asia, and the Middle East.&#xA;My primary expertise is in Roblox game development using Roblox Studio. I teach students game design, Lua scripting, and 3D environment creation, guiding them to build their own games while strengthening their programming skills and creative thinking. Additionally, I teach block-based coding (MIT Scratch, Code.</description>
-    </item>
-    <item>
-      <title>Contact</title>
-      <link>http://localhost:1313/contact/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/contact/</guid>
-      <description>My inbox is always open. Whether you have a question or just want to say hi, I’ll try my best to get back to you!</description>
-    </item>
-    <item>
-      <title>Hero</title>
-      <link>http://localhost:1313/hero/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/hero/</guid>
-      <description>I am a passionate teacher mentoring students all accross the globe.&#xA;Every Learner is unique. I provide personalized and assisted learning to Young Learners&amp;rsquo; through 1-1 and Group Sessions using Modern Tools and Tech.</description>
-    </item>
-  </channel>
-</rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Nilam's Page</title><link>https://nilampatil26.github.io/</link><description>Recent content on Nilam's Page</description><generator>Hugo -- gohugo.io</generator><language>en</language><lastBuildDate>Wed, 20 Mar 2024 16:00:00 +0000</lastBuildDate><atom:link href="https://nilampatil26.github.io/index.xml" rel="self" type="application/rss+xml"/><item><title>5 Fun Math Tricks to Impress Your Friends</title><link>https://nilampatil26.github.io/blogs/math-tricks/</link><pubDate>Wed, 20 Mar 2024 16:00:00 +0000</pubDate><guid>https://nilampatil26.github.io/blogs/math-tricks/</guid><description>5 Fun Math Tricks to Impress Your Friends Math doesn&amp;rsquo;t have to be boring! Here are 5 amazing mental math tricks that will make you look like a math wizard. 🧙‍♀️
+Trick 1: Multiply by 11 (Two-Digit Numbers) The Secret: Split the digits and put their sum in the middle!
+Example: 35 × 11
+Split: 3 __ 5 Add digits: 3 + 5 = 8 Answer: 385 ✨ Try it: 52 × 11 = ?</description></item><item><title>Getting Started with MIT Scratch: A Parent's Guide</title><link>https://nilampatil26.github.io/blogs/scratch-guide/</link><pubDate>Fri, 15 Mar 2024 14:00:00 +0000</pubDate><guid>https://nilampatil26.github.io/blogs/scratch-guide/</guid><description>Getting Started with MIT Scratch: A Parent&amp;rsquo;s Guide MIT Scratch is one of the best tools to introduce children to the world of coding. It&amp;rsquo;s visual, intuitive, and most importantly - fun!
+What is Scratch? Scratch is a block-based visual programming language developed by MIT Media Lab. Instead of typing complex code, kids drag and drop colorful blocks to create:
+🎮 Interactive games 🎬 Animated stories 🎵 Music and sound projects 🤖 Simple simulations Why Scratch is Perfect for Kids 1.</description></item><item><title>Welcome to Learner's Paradise</title><link>https://nilampatil26.github.io/blogs/welcome-post/</link><pubDate>Fri, 01 Mar 2024 10:00:00 +0000</pubDate><guid>https://nilampatil26.github.io/blogs/welcome-post/</guid><description>Welcome to Learner&amp;rsquo;s Paradise Hello and welcome to my blog! I&amp;rsquo;m Nilam Patil, a passionate STEM and Tech Educator with 6+ years of experience teaching students worldwide. I specialize in helping learners aged 6-18 discover the joy of coding, robotics, and game development.
+🎯 Courses I Offer Check out my Courses section for detailed information, or explore them below:
+🎮 Roblox Game Development Master Lua scripting and create your own 3D games!</description></item><item><title>Render Math With Mathjax</title><link>https://nilampatil26.github.io/blogs/math/</link><pubDate>Fri, 09 Dec 2022 19:53:33 +0530</pubDate><guid>https://nilampatil26.github.io/blogs/math/</guid><description>Mathjax Math equations can be rendered using Mathjax syntax with AMS symbol support.
+Optionally enable this on a per-page basis by adding mathjax: true to your frontmatter.
+Then, use $$ ... $$ on a line by itself to render a block equation:
+$$ | Pr_{x \leftarrow P_{1}} [A(x) = 1] - Pr_{x \leftarrow P_{2}} [A(x) = 1] | &amp;lt; \text{negligible} $$
+The raw version is:
+$$ | Pr_{x \leftarrow P_{1}} [A(x) = 1] - Pr_{x \leftarrow P_{2}} [A(x) = 1] | &amp;lt; \text{negligible} $$ Write in-line equations with \\( .</description></item><item><title>Renderizar Matemáticas con Mathjax</title><link>https://nilampatil26.github.io/es/blogs/math/</link><pubDate>Fri, 09 Dec 2022 19:53:33 +0530</pubDate><guid>https://nilampatil26.github.io/es/blogs/math/</guid><description>Mathjax Las ecuaciones matemáticas se pueden renderizar usando la sintaxis de Mathjax con soporte de símbolos AMS.
+Opcionalmente, habilita esto por página agregando mathjax: true a tu frontmatter.
+Luego, usa $$ ... $$ en una línea por sí sola para renderizar una ecuación de bloque:
+$$ | Pr_{x \leftarrow P_{1}} [A(x) = 1] - Pr_{x \leftarrow P_{2}} [A(x) = 1] | &amp;lt; \text{negligible} $$
+La versión sin procesar es:
+$$ | Pr_{x \leftarrow P_{1}} [A(x) = 1] - Pr_{x \leftarrow P_{2}} [A(x) = 1] | &amp;lt; \text{negligible} $$ Escribe ecuaciones en línea con \\( .</description></item><item><title>Rendre les Mathématiques avec Mathjax</title><link>https://nilampatil26.github.io/fr/blogs/math/</link><pubDate>Fri, 09 Dec 2022 19:53:33 +0530</pubDate><guid>https://nilampatil26.github.io/fr/blogs/math/</guid><description>Mathjax Les équations mathématiques peuvent être rendues en utilisant la syntaxe Mathjax avec le support des symboles AMS.
+Activez ceci de manière optionnelle page par page en ajoutant mathjax: true à votre frontmatter.
+Ensuite, utilisez $$ ... $$ sur une ligne par elle-même pour rendre une équation de bloc:
+$$ | Pr_{x \leftarrow P_{1}} [A(x) = 1] - Pr_{x \leftarrow P_{2}} [A(x) = 1] | &amp;lt; \text{negligible} $$
+La version brute est:</description></item><item><title>Galería de Imágenes</title><link>https://nilampatil26.github.io/es/gallery/</link><pubDate>Sat, 25 Jun 2022 18:35:46 +0530</pubDate><guid>https://nilampatil26.github.io/es/gallery/</guid><description/></item><item><title>Galerie d'Images</title><link>https://nilampatil26.github.io/fr/gallery/</link><pubDate>Sat, 25 Jun 2022 18:35:46 +0530</pubDate><guid>https://nilampatil26.github.io/fr/gallery/</guid><description/></item><item><title>Image Gallery</title><link>https://nilampatil26.github.io/gallery/</link><pubDate>Sat, 25 Jun 2022 18:35:46 +0530</pubDate><guid>https://nilampatil26.github.io/gallery/</guid><description/></item><item><title>Markdown Syntax</title><link>https://nilampatil26.github.io/blogs/markdown-syntax/</link><pubDate>Sat, 03 Apr 2021 23:29:21 +0530</pubDate><guid>https://nilampatil26.github.io/blogs/markdown-syntax/</guid><description>Paragraph Xerum, quo qui aut unt expliquam qui dolut labo. Aque venitatiusda cum, voluptionse latur sitiae dolessi aut parist aut dollo enim qui voluptate ma dolestendit peritin re plis aut quas inctum laceat est volestemque commosa as cus endigna tectur, offic to cor sequas etum rerum idem sintibus eiur? Quianimin porecus evelectur, cum que nis nust voloribus ratem aut omnimi, sitatur? Quiatem. Nam, omnis sum am facea corem alique molestrunt et eos evelece arcillit ut aut eos eos nus, sin conecerem erum fuga.</description></item><item><title>Sintaxis de Markdown</title><link>https://nilampatil26.github.io/es/blogs/markdown-syntax/</link><pubDate>Sat, 03 Apr 2021 23:29:21 +0530</pubDate><guid>https://nilampatil26.github.io/es/blogs/markdown-syntax/</guid><description>Párrafo Xerum, quo qui aut unt expliquam qui dolut labo. Aque venitatiusda cum, voluptionse latur sitiae dolessi aut parist aut dollo enim qui voluptate ma dolestendit peritin re plis aut quas inctum laceat est volestemque commosa as cus endigna tectur, offic to cor sequas etum rerum idem sintibus eiur? Quianimin porecus evelectur, cum que nis nust voloribus ratem aut omnimi, sitatur? Quiatem. Nam, omnis sum am facea corem alique molestrunt et eos evelece arcillit ut aut eos eos nus, sin conecerem erum fuga.</description></item><item><title>Syntaxe Markdown</title><link>https://nilampatil26.github.io/fr/blogs/markdown-syntax/</link><pubDate>Sat, 03 Apr 2021 23:29:21 +0530</pubDate><guid>https://nilampatil26.github.io/fr/blogs/markdown-syntax/</guid><description>Paragraphe Xerum, quo qui aut unt expliquam qui dolut labo. Aque venitatiusda cum, voluptionse latur sitiae dolessi aut parist aut dollo enim qui voluptate ma dolestendit peritin re plis aut quas inctum laceat est volestemque commosa as cus endigna tectur, offic to cor sequas etum rerum idem sintibus eiur? Quianimin porecus evelectur, cum que nis nust voloribus ratem aut omnimi, sitatur? Quiatem. Nam, omnis sum am facea corem alique molestrunt et eos evelece arcillit ut aut eos eos nus, sin conecerem erum fuga.</description></item><item><title>Emoji Support</title><link>https://nilampatil26.github.io/blogs/emoji-support/</link><pubDate>Sat, 03 Apr 2021 22:53:58 +0530</pubDate><guid>https://nilampatil26.github.io/blogs/emoji-support/</guid><description>Emoji can be enabled in a Hugo project in a number of ways. :zap:
+Emoji Support The emojify function can be called directly in templates or Inline Shortcodes.
+To enable emoji globally, set enableEmoji to true in your site’s configuration and then you can type emoji shorthand codes directly in content files; e.g.
+The Emoji cheat sheet is a useful reference for emoji shorthand codes.
+N.B. The above steps enable Unicode Standard emoji characters and sequences in Hugo, however the rendering of these glyphs depends on the browser and the platform.</description></item><item><title>Soporte de Emoji</title><link>https://nilampatil26.github.io/es/blogs/emoji-support/</link><pubDate>Sat, 03 Apr 2021 22:53:58 +0530</pubDate><guid>https://nilampatil26.github.io/es/blogs/emoji-support/</guid><description>Los emoji se pueden habilitar en un proyecto Hugo de varias maneras. :zap:
+Soporte de Emoji La función emojify se puede llamar directamente en las plantillas o Shortcodes en línea.
+Para habilitar emoji globalmente, establece enableEmoji en true en la configuración de tu sitio y luego puedes escribir códigos abreviados de emoji directamente en los archivos de contenido; por ejemplo:
+La Hoja de trucos de Emoji es una referencia útil para los códigos abreviados de emoji.</description></item><item><title>Support des Emoji</title><link>https://nilampatil26.github.io/fr/blogs/emoji-support/</link><pubDate>Sat, 03 Apr 2021 22:53:58 +0530</pubDate><guid>https://nilampatil26.github.io/fr/blogs/emoji-support/</guid><description>Les emoji peuvent être activés dans un projet Hugo de plusieurs façons. :zap:
+Support des Emoji La fonction emojify peut être appelée directement dans les modèles ou les Shortcodes en ligne.
+Pour activer les emoji globalement, définissez enableEmoji sur true dans la configuration de votre site, puis vous pouvez taper les codes abrégés d&amp;rsquo;emoji directement dans les fichiers de contenu; par exemple :
+La Feuille de triche Emoji est une référence utile pour les codes abrégés d&amp;rsquo;emoji.</description></item><item><title>Placeholder Text</title><link>https://nilampatil26.github.io/blogs/placeholder-text/</link><pubDate>Sat, 03 Apr 2021 22:41:10 +0530</pubDate><guid>https://nilampatil26.github.io/blogs/placeholder-text/</guid><description>Lorem est tota propiore conpellat pectoribus de pectora summo.
+Redit teque digerit hominumque toris verebor lumina non cervice subde tollit usus habet Arctonque, furores quas nec ferunt. Quoque montibus nunc caluere tempus inhospita parcite confusaque translucet patri vestro qui optatis lumine cognoscere flos nubis! Fronde ipsamque patulos Dryopen deorum.
+Exierant elisi ambit vivere dedere Duce pollice Eris modo Spargitque ferrea quos palude Rursus nulli murmur; hastile inridet ut ab gravi sententia!</description></item><item><title>Texte de Remplissage</title><link>https://nilampatil26.github.io/fr/blogs/placeholder-text/</link><pubDate>Sat, 03 Apr 2021 22:41:10 +0530</pubDate><guid>https://nilampatil26.github.io/fr/blogs/placeholder-text/</guid><description>Lorem est tota propiore conpellat pectoribus de pectora summo.
+Redit teque digerit hominumque toris verebor lumina non cervice subde tollit usus habet Arctonque, furores quas nec ferunt. Quoque montibus nunc caluere tempus inhospita parcite confusaque translucet patri vestro qui optatis lumine cognoscere flos nubis! Fronde ipsamque patulos Dryopen deorum.
+Exierant elisi ambit vivere dedere Duce pollice Eris modo Spargitque ferrea quos palude Rursus nulli murmur; hastile inridet ut ab gravi sententia!</description></item><item><title>Texto de Relleno</title><link>https://nilampatil26.github.io/es/blogs/placeholder-text/</link><pubDate>Sat, 03 Apr 2021 22:41:10 +0530</pubDate><guid>https://nilampatil26.github.io/es/blogs/placeholder-text/</guid><description>Lorem est tota propiore conpellat pectoribus de pectora summo.
+Redit teque digerit hominumque toris verebor lumina non cervice subde tollit usus habet Arctonque, furores quas nec ferunt. Quoque montibus nunc caluere tempus inhospita parcite confusaque translucet patri vestro qui optatis lumine cognoscere flos nubis! Fronde ipsamque patulos Dryopen deorum.
+Exierant elisi ambit vivere dedere Duce pollice Eris modo Spargitque ferrea quos palude Rursus nulli murmur; hastile inridet ut ab gravi sententia!</description></item><item><title>Contenido Enriquecido</title><link>https://nilampatil26.github.io/es/blogs/rich-content/</link><pubDate>Sat, 03 Apr 2021 19:53:33 +0530</pubDate><guid>https://nilampatil26.github.io/es/blogs/rich-content/</guid><description>Hugo viene con varios Shortcodes Integrados para contenido enriquecido, junto con una Configuración de Privacidad y un conjunto de Shortcodes Simples que habilitan versiones estáticas y sin JS de varias incrustaciones de redes sociales.
+Shortcode Simple de X {{&amp;lt; tweet user=&amp;#34;GoHugoIO&amp;#34; id=&amp;#34;1315233626070503424&amp;#34; &amp;gt;}} Shortcode Simple de Vimeo {{&amp;lt; vimeo 146022717 &amp;gt;}} Shortcode gist {{&amp;lt; gist spf13 7896402 &amp;gt;}}</description></item><item><title>Contenu Enrichi</title><link>https://nilampatil26.github.io/fr/blogs/rich-content/</link><pubDate>Sat, 03 Apr 2021 19:53:33 +0530</pubDate><guid>https://nilampatil26.github.io/fr/blogs/rich-content/</guid><description>Hugo est livré avec plusieurs Shortcodes Intégrés pour le contenu enrichi, ainsi qu&amp;rsquo;une Configuration de Confidentialité et un ensemble de Shortcodes Simples qui permettent des versions statiques et sans JS de diverses intégrations de médias sociaux.
+Shortcode Simple X {{&amp;lt; tweet user=&amp;#34;GoHugoIO&amp;#34; id=&amp;#34;1315233626070503424&amp;#34; &amp;gt;}} Shortcode Simple Vimeo {{&amp;lt; vimeo 146022717 &amp;gt;}} Shortcode gist {{&amp;lt; gist spf13 7896402 &amp;gt;}}</description></item><item><title>Rich Content</title><link>https://nilampatil26.github.io/blogs/rich-content/</link><pubDate>Sat, 03 Apr 2021 19:53:33 +0530</pubDate><guid>https://nilampatil26.github.io/blogs/rich-content/</guid><description>Hugo ships with several Embedded Shortcodes for rich content, along with a Privacy Config and a set of Simple Shortcodes that enable static and no-JS versions of various social media embeds.
+X Simple Shortcode {{&amp;lt; tweet user=&amp;#34;GoHugoIO&amp;#34; id=&amp;#34;1315233626070503424&amp;#34; &amp;gt;}} Profile is a customizable single-page portfolio theme for Hugo featuring a contact form and blog. Made by @gurusabarishh.https://t.co/KwYcwfdy16
+&amp;mdash; GoHugo.io (@GoHugoIO) October 11, 2020 Vimeo Simple Shortcode {{&amp;lt; vimeo 146022717 &amp;gt;}} Youtube Simple Shortcode {{&amp;lt; youtube w7Ft2ymGmfc &amp;gt;}} Theme Custom Shortcodes These shortcodes are not Hugo built-ins, but are provided by the theme.</description></item><item><title>About Me</title><link>https://nilampatil26.github.io/about/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://nilampatil26.github.io/about/</guid><description>I am an international robotics and coding educator with six years of experience delivering online instruction to students aged 6 to 18 across the United States, Australia, Europe, Asia, and the Middle East.
+My primary expertise is in Roblox game development using Roblox Studio. I teach students game design, Lua scripting, and 3D environment creation, guiding them to build their own games while strengthening their programming skills and creative thinking. Additionally, I teach block-based coding (MIT Scratch, Code.</description></item><item><title>Contact</title><link>https://nilampatil26.github.io/contact/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://nilampatil26.github.io/contact/</guid><description>My inbox is always open. Whether you have a question or just want to say hi, I’ll try my best to get back to you!</description></item><item><title>Hero</title><link>https://nilampatil26.github.io/hero/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://nilampatil26.github.io/hero/</guid><description>I am a passionate teacher mentoring students all accross the globe.
+Every Learner is unique. I provide personalized and assisted learning to Young Learners&amp;rsquo; through 1-1 and Group Sessions using Modern Tools and Tech.</description></item></channel></rss>

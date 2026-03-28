@@ -31,9 +31,8 @@
 }
 
 #projects .card .card-head {
-    -o-object-fit: cover;
-    object-fit: cover;
     overflow: hidden;
+    height: 220px;
     border-top-left-radius: 1rem;
     border-top-right-radius: 1rem;
     border: none !important;
@@ -50,6 +49,9 @@
 }
 
 #projects .card-img-top {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
     transition: transform 0.3s;
 }
 
