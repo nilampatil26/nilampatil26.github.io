@@ -1,3 +1,19 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Scratch on Nilam's Page</title><link>https://nilampatil26.github.io/tags/scratch/</link><description>Recent content in Scratch on Nilam's Page</description><generator>Hugo -- gohugo.io</generator><language>en</language><lastBuildDate>Fri, 15 Mar 2024 14:00:00 +0000</lastBuildDate><atom:link href="https://nilampatil26.github.io/tags/scratch/index.xml" rel="self" type="application/rss+xml"/><item><title>Getting Started with MIT Scratch: A Parent's Guide</title><link>https://nilampatil26.github.io/blogs/scratch-guide/</link><pubDate>Fri, 15 Mar 2024 14:00:00 +0000</pubDate><guid>https://nilampatil26.github.io/blogs/scratch-guide/</guid><description>Getting Started with MIT Scratch: A Parent&amp;rsquo;s Guide MIT Scratch is one of the best tools to introduce children to the world of coding. It&amp;rsquo;s visual, intuitive, and most importantly - fun!
-What is Scratch? Scratch is a block-based visual programming language developed by MIT Media Lab. Instead of typing complex code, kids drag and drop colorful blocks to create:
-🎮 Interactive games 🎬 Animated stories 🎵 Music and sound projects 🤖 Simple simulations Why Scratch is Perfect for Kids 1.</description></item></channel></rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Scratch on Nilam&#39;s Page</title>
+    <link>http://localhost:1313/tags/scratch/</link>
+    <description>Recent content in Scratch on Nilam&#39;s Page</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Fri, 15 Mar 2024 14:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/tags/scratch/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Getting Started with MIT Scratch: A Parent&#39;s Guide</title>
+      <link>http://localhost:1313/blogs/scratch-guide/</link>
+      <pubDate>Fri, 15 Mar 2024 14:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/blogs/scratch-guide/</guid>
+      <description>Getting Started with MIT Scratch: A Parent&amp;rsquo;s Guide MIT Scratch is one of the best tools to introduce children to the world of coding. It&amp;rsquo;s visual, intuitive, and most importantly - fun!&#xA;What is Scratch? Scratch is a block-based visual programming language developed by MIT Media Lab. Instead of typing complex code, kids drag and drop colorful blocks to create:&#xA;🎮 Interactive games 🎬 Animated stories 🎵 Music and sound projects 🤖 Simple simulations Why Scratch is Perfect for Kids 1.</description>
+    </item>
+  </channel>
+</rss>
