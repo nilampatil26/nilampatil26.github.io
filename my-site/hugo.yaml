@@ -24,6 +24,11 @@ languages:
           title: Image gallery
           url: /gallery
           weight: 2
+        - identifier: book-session
+          name: Book Session
+          title: Book Session
+          url: /book-session
+          weight: 3
   es:
     languageName: "Español"
     weight: 2
@@ -40,6 +45,11 @@ languages:
           title: Galería de imágenes
           url: /es/gallery
           weight: 2
+        - identifier: book-session
+          name: Reserva
+          title: Reserva una sesión
+          url: /es/book-session
+          weight: 3
     params:
       hero:
         intro: ""
@@ -104,6 +114,11 @@ languages:
           title: Galerie d'images
           url: /fr/gallery
           weight: 2
+        - identifier: book-session
+          name: Reservation
+          title: Reserver une session
+          url: /fr/book-session
+          weight: 3
     params:
       hero:
         intro: ""
@@ -185,6 +200,11 @@ Menus:
       title: Image gallery
       url: /gallery
       weight: 2
+    - identifier: book-session
+      name: Book Session
+      title: Book Session
+      url: /book-session
+      weight: 3
     # Dropdown menu
     # - identifier: dropdown
     #   title: Example dropdown menu
@@ -245,13 +265,13 @@ params:
     secondaryColor: "#f8f9fa"
 
     darkmode:
-      textColor: "#cdd6f4"
-      secondaryTextColor: "#bac2de"
-      textLinkColor: "#89b4fa"
-      backgroundColor: "#1e1e2e"
-      secondaryBackgroundColor: "#313244"
-      primaryColor: "#cba6f7"
-      secondaryColor: "#181825"
+      textColor: "#f3ecff"
+      secondaryTextColor: "#cbbddd"
+      textLinkColor: "#93c5fd"
+      backgroundColor: "#1b1725"
+      secondaryBackgroundColor: "#2a2238"
+      primaryColor: "#c084fc"
+      secondaryColor: "#211a2d"
 
   # If you want to customize the menu, you can change it here
   navbar:
@@ -319,19 +339,32 @@ params:
 
     skills:
       enable: true
-      title: "Inspire Curiosity. Build Skills. Unlock Potential."
-      items:
-        - HTML
-        - CSS
-        - JavaScript
-        - MIT Scratch
-        - Coding using [code.org](https://code.org) 
-        - Arduino Based coding
-        - Minecraft
-        - micro:bit
-        - Game Development 
-        - App development
-        - Wired and Wireless Robotics (Bluetooth Projects)
+      title: "What Kids Can Learn"
+      categories:
+        - title: "Coding Essentials"
+          icon: "fas fa-code"
+          items:
+            - "Scratch Storytelling & Logic"
+            - "[Code.org Coding Pathways](https://code.org)"
+            - "Interactive JavaScript Foundations"
+        - title: "Game Creation Studio"
+          icon: "fas fa-gamepad"
+          items:
+            - "Roblox Studio World-Building"
+            - "Lua Game Scripting"
+            - "Creative Game Design Projects"
+        - title: "Robotics & STEM Labs"
+          icon: "fas fa-robot"
+          items:
+            - "Hands-On Arduino Innovation"
+            - "LEGO Robotics Challenges"
+            - "Sensors, Circuits & Electronics"
+        - title: "Web & Creative Technology"
+          icon: "fas fa-globe"
+          items:
+            - "Modern HTML & CSS Creation"
+            - "Creative App Design"
+            - "Minecraft Education Adventures"
 
   # Experience
   experience:
@@ -555,11 +588,11 @@ params:
   #Contact
   contact:
     enable: true
-    title: "Contact"
-    content: My inbox is always open. Whether you have a question or just want to say hi, I’ll try my best to get back to you!
+    title: "Ready to Get Started?"
+    content: Every child learns differently, and the best results begin with the right guidance. If you’d like help choosing a course, understanding class options, or booking a session, I’d love to hear from you. Let’s create a learning experience that feels engaging, supportive, and exciting from day one.
     email: nilamjadhav7999@gmail.com
     phone: "+1-603-266-8246"
-    btnName: email me
+    btnName: "Start Here"
 
   footer:
     recentPosts:

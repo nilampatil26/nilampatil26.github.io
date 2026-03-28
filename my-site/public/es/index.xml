@@ -6,8 +6,15 @@
     <description>Recent content on Nilam&#39;s Page</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>es</language>
-    <lastBuildDate>Fri, 09 Dec 2022 19:53:33 +0530</lastBuildDate>
+    <lastBuildDate>Sat, 28 Mar 2026 12:00:00 -0400</lastBuildDate>
     <atom:link href="http://localhost:1313/es/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Reserva una sesión</title>
+      <link>http://localhost:1313/es/book-session/</link>
+      <pubDate>Sat, 28 Mar 2026 12:00:00 -0400</pubDate>
+      <guid>http://localhost:1313/es/book-session/</guid>
+      <description>Reserva una sesión Esta página es para compartir disponibilidad de clases, horarios de sesiones y próximos espacios para tutorías.&#xA;Si deseas reservar una sesión de tutoría para tu hijo, comunícate a través de la sección de contacto y podré compartir los horarios más adecuados.&#xA;Para Qué Sirve Esta Página Ver disponibilidad próxima para sesiones individuales Consultar horarios actualizados de clases en grupos pequeños Planificar horarios semanales de tutoría Mantenerte al tanto de talleres especiales y lotes vacacionales Nota de Reserva Por ahora, las reservas se gestionan manualmente para poder recomendar el formato de clase, grupo de edad y ruta de aprendizaje más adecuados para cada estudiante.</description>
+    </item>
     <item>
       <title>Renderizar Matemáticas con Mathjax</title>
       <link>http://localhost:1313/es/blogs/math/</link>

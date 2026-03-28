@@ -15,12 +15,34 @@
                 {{ $about.content | markdownify }}
 
                 {{ if .Site.Params.about.skills.enable }}
-                {{ $about.skills.title | default .Site.Params.about.skills.title }}
-                <ul>
-                    {{ range .Site.Params.about.skills.items }}
-                    <li>{{ . | markdownify }}</li>
+                <div class="about-skills">
+                    <h4 class="skills-title">{{ $about.skills.title | default .Site.Params.about.skills.title }}</h4>
+                    {{ if $about.skills.categories | default .Site.Params.about.skills.categories }}
+                    <div class="skills-grid">
+                        {{ range $about.skills.categories | default .Site.Params.about.skills.categories }}
+                        <div class="skill-card">
+                            <div class="skill-card-head">
+                                {{ if .icon }}
+                                <span class="skill-icon"><i class="{{ .icon }}"></i></span>
+                                {{ end }}
+                                <h5>{{ .title }}</h5>
+                            </div>
+                            <ul>
+                                {{ range .items }}
+                                <li>{{ . | markdownify }}</li>
+                                {{ end }}
+                            </ul>
+                        </div>
+                        {{ end }}
+                    </div>
+                    {{ else }}
+                    <ul>
+                        {{ range .Site.Params.about.skills.items }}
+                        <li>{{ . | markdownify }}</li>
+                        {{ end }}
+                    </ul>
                     {{ end }}
-                </ul>
+                </div>
                 {{ end }}
             </div>
         </div>
